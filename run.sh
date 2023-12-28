@@ -1,7 +1,7 @@
 #!/bin/sh
 set -u
 
-DOCKER_COMPOSE="docker-compose"
+DOCKER_COMPOSE="docker compose"
 
 if ! command -v $DOCKER_COMPOSE >/dev/null 2>&1; then
   # Verify if this system is using docker-compose v2, which on some systems is only exposed
